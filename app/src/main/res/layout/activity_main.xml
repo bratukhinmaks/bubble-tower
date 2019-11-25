@@ -10,10 +10,11 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#00C72828"
         android:fontFamily="@font/architects_daughter"
         android:text="Bubble Tower"
         android:textAlignment="center"
-        android:textColor="#EB3A42"
+        android:textColor="#BB02FC"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,18 +49,17 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="519dp"
-        android:layout_height="1048dp"
+        android:layout_width="775dp"
+        android:layout_height="1492dp"
         android:adjustViewBounds="false"
-        android:alpha="0.4"
+        android:alpha="0.3"
+        android:background="@drawable/bubble"
         android:cropToPadding="true"
         android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/bubble" />
+        app:layout_constraintVertical_bias="0.83" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
